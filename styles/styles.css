@@ -13,14 +13,46 @@ h1 {
     color: darkblue
 }
 
-img {
-    width: 150px;
+main img {
+    width: 250px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    
 }
 
 p {
-    padding: 10px
+    padding: 0;
+}
+
+aside {
+    max-width: 600px;
+    margin: 10px 0;
+    border: black 1px solid;
+    padding: 10px;
+    background-color: #ddd;
+    color: blue;
+    float: center;
+    text-align: justify;
+    
+}
+
+aside img {
+    border: 5px solid blue;
+    color: 0 0 255;
+    
+    box-shadow: 0 0 20px black;
+    float: center;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
