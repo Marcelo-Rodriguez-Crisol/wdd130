@@ -41,8 +41,6 @@ aside {
 
 aside img {
     border: 5px solid blue;
-    color: 0 0 255;
-
     box-shadow: 0 0 20px black;
     float: right;
     margin: 10px;
