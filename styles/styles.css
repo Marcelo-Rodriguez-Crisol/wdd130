@@ -27,7 +27,7 @@ main img {
 }
 
 img {
-    max-width: 250px;
+    width: 250px;
     height: auto;
 }
 
