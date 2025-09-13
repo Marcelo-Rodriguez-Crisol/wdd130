@@ -14,16 +14,7 @@ h1 {
 }
 
 main {
-    margin: auto;
-    padding: 10px;
-    text-align: justify;
-}
-
-main img {
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px;
+    max-width: 840px
 }
 
 img {
@@ -37,29 +28,28 @@ p {
 }
 
 aside {
-    max-width: 600px;
+    width: 600px;
     margin: 10px 0;
     border: black 1px solid;
     padding: 10px;
     background-color: #ddd;
     color: blue;
-    float: right;
-    text-align: justify;   
 }
 
 aside img {
-    border: 5px solid blue;
-    box-shadow: 0 0 20px;
-    float: right;
-    margin: 10px;
-    padding: 5px;
     width: 200px;
     height: auto;
-    display: block;
+}
+
+main img {
+    width:  150px;
+    height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
