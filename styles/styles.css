@@ -18,10 +18,11 @@ main {
 }
 
 main img {
-    width:  150px;
+    width: 150px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px;
+    border: 10px;  
 }
 
 img {
@@ -47,8 +48,11 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px;
+    border: 10px;  
 }
 
 footer {
