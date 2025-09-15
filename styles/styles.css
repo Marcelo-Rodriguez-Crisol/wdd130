@@ -48,11 +48,8 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    padding: 2px;
-    box-shadow: 0 0 30px;
-    border: 10px;  
 }
 
 footer {
