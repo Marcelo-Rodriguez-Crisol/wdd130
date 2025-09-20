@@ -1,3 +1,7 @@
+ /*WHENEVER you're using declarations and rules and the validator just hates you for being creative, remember that 
+ a few changes withing the different rules that share specific items, like img + aside img + main img kind of breaks
+ the "nice" validator and that might solve any issues */
+
 nav {
     background-color: darkblue;
     padding: 10px;
