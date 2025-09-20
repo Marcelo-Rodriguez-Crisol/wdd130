@@ -18,8 +18,8 @@ body {
 }
 
 header, main, footer {
-    width: 840px
-    margin 0 auto;
+    width: 840px;
+    margin: 0 auto;
 }
 
 h1, h2 {
@@ -32,7 +32,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
+.socialmedia img {
     text-decoration: none;
     width: 32px;
     height: auto;
@@ -42,6 +42,7 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
 .hero img {
@@ -52,18 +53,57 @@ nav, p, section, article {
 
 h1 {
     position: absolute;
-    top: 20px;
-    left: 100%;
-    padding: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 24px 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
+    opacity: 0.9;
+    background-color: rgba(173, 216, 230, 0.85);
     color: #fff;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
 
 .hero article img{
-    float: right;
     width: 125px;
+    height: auto;
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.hero article p {
+    flex: 1 1 auto;
+}
+
+.hero article img {
+    flex: 0 0 125px; /* keep image at fixed width */
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+@media (max-width: 600px) {
+    .hero article {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero article img {
+        width: 100%;
+        max-width: 180px;
+        flex: 0 0 auto;
+    }
 }
 
 
