@@ -1,9 +1,14 @@
  /*WHENEVER you're using declarations and rules and the validator just hates you for being creative, remember that 
  a few changes withing the different rules that share specific items, like img + aside img + main img kind of breaks
  the "nice" validator and that might solve any issues */
+ :root {
+    --main-color: darkblue;
+    --box-shadow-base:20px;
+    --text-color: hsl(240, 100%, 20%);
+    --background-color: #ddd;
 
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -14,7 +19,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue
+    color: var(--main-color)
 }
 
 main {
@@ -25,7 +30,7 @@ main img {
     width: 150px;
     height: auto;
     padding: 2px;
-    box-shadow: 0 0 30px;
+    box-shadow: var(--box-shadow-base);
     border: 10px;  
 }
 
@@ -33,7 +38,7 @@ img {
     width: 150px;
     height: auto;
     padding: 2px;
-    box-shadow: 0 0 30px;
+    box-shadow: var(--box-shadow-base);
     border: 10px;  
 }
 
